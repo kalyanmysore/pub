@@ -25,7 +25,7 @@ John Deere has come a long way in the agronomic data journey. I joined the journ
 
 ### Intelligent fleetwide work control.
 In agriculture, it is important that seeds and chemicals should be applied with the right rates. Double applications may result in reduced yields or for certain chemicals, may exceed the regulated range. For faster work, customers wanted to use multiple machines (sometimes with varying equipment sizes) on the same field, simultaneously or asynchronously. I architected a system to efficiently and quickly share data between machines with the cloud as in intermediary. Using this platform, the machines can work as a team, automatically stopping product application when driving over an area that has already been worked on with that product. This was very successful in the market. Customers love it and the most common feedback we got was "It just works !". One of the reasons for "it just works" was that I also designed a system to simulate machines sharing data. Originally, I made this to help the development teams test their work. However, later, we were able to modify it to simulate thousands of machines to load test the entire system. This, along with work by all the other excellent people on the team, helps us get the feedback of "it just works". 
-Technology wise, we started with using WebSockets to the cloud. We have since transitioned to using AWS IoT with MQTT. At the cloud, we use various AWS components such as the AWS IoT rules engine, AWS SQS, AWS Kinesis, AWS S3, AWS lambda, AWS EC2, AWS dynamoDB, AWS Aurora. I wrote the simulation software in C#.
+Technology wise, we used C++, Qt on the on-machine computing device. For communications, we started with using WebSockets to the cloud. We have since transitioned to using AWS IoT with MQTT. At the cloud, we use various AWS components such as the AWS IoT rules engine, AWS SQS, AWS Kinesis, AWS S3, AWS lambda, AWS EC2, AWS dynamoDB, AWS Aurora. I wrote the simulation software in C#.
 
 
 # How I do my best
@@ -36,8 +36,14 @@ Over the years, I have been fortunate to have honed a few skills
 * The art of analyis of system flows. The paths of least resistance and the paths with resistance / errors. Most bugs are worked out here, before they get a chance to come into existence.
 * The art of discussing system flows with the various stakeholders, to the degree needed.
 * The art of debugging, for the few bugs that inevitably come up.
+* The art of being flexible. Filling gaps that have emerged. I've been a liason, I've provided feedback to stardards commitees, I've written simulations for testing, I've even travelled to Fargo,ND in winter for 3 months to get a project unstuck. While architecting is my forte, flexibility is my well, flex !
 
 These, along with the fortune of having seen many systems that work well, enable me to stand on the shoulders of giants and do my best work. It has also been my fortune that all my employers have been a pleasure to work with so far.
 
 # What I'd like to do
-
+Over the years, I've understood that there are many axes of balance
+* New technologies Vs using/extending existing ones
+* Technology choice Vs developer availability / flexibility
+* System complexity Vs reliability Vs competitive landscape
+While these depend on the company and the situation, the common need is good initial analysis (not upto paralysis), choosing an initial architectural direction, defining interfaces well and being flexible to change as needed.
+With those in mind, I'd be happy to work on any projects that require the services of a good systems architect. I'm comfortable in certain domains but flexible to expand to new domains. I am a very fast and deep learner.
