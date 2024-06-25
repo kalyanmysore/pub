@@ -2,7 +2,7 @@
 ## Encompass systems
 Requirements analyst, software developer and tester of a custom sales management system for a company that sold and supported third party software. I initially authored the first few iterations using Microsoft Visual Foxpro as requested by the client. However, due to performance limitations of Visual Foxpro, I rewrote and continued further iterations with Delphi for better performance. I learnt Delphi and was productive in a couple of weeks. The project used Delphi (which used object oriented Pascal) and SQL (using InterBase). 
 
-## PSI data systems
+## Hectronic GmbH (via PSI data systems)
 Tech lead of team that developed Point of Sale cash register system software for Hectronic GmbH. I also wrote interfacing code for credit card terminals and fuel station pumps. Visited customer sites in Bonndorf, Germany for deeper understanding and integration. We used Delphi (object oriented pascal) and Sybase RDBMS with SQL.
 
 ## Wipro Infotech
